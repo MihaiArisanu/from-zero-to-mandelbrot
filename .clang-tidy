@@ -1,0 +1,13 @@
+---
+Checks: >
+  -*,
+  clang-analyzer-*,
+  bugprone-branch-clone,
+  bugprone-integer-division,
+  bugprone-suspicious-semicolon,
+  bugprone-swapped-arguments,
+  bugprone-use-after-move,
+  readability-misleading-indentation
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*'

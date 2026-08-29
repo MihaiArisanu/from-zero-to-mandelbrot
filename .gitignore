@@ -48,7 +48,6 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
 
@@ -70,3 +69,12 @@ Testing/
 
 # JetBrains
 .idea/
+
+# CLion CMake build directories
+cmake-build-*/
+
+# macOS
+.DS_Store
+
+# Generated images
+*.ppm
