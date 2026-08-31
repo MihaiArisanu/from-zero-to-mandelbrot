@@ -42,3 +42,17 @@ how a Makefile is structured and how its rules work.
 In this project, drawing the grid itself was the easy part, especially after
 the first project. The real challenge is understanding how to map mathematical
 coordinates to pixels.
+
+While working on this project, I became curious about the meaning of `P3` in
+the following part of the code:
+
+```cpp
+file<<"P3\n";
+file<<width<<" "<<height<<'\n';
+file<<"255\n";
+```
+
+I learned that `P3` is the magic number for a plain PPM image, where the RGB
+values are written as ASCII numbers. I also learned that related Netpbm formats
+use other magic numbers, such as `P2` for plain grayscale images and `P6` for
+binary RGB images.
