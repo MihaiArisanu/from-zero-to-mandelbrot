@@ -43,11 +43,11 @@ void saveToPPM(const string& filename, Color canvas[height][width])
     file<<"P3\n";
     file<<width<<" "<<height<<"\n";
     file<<"255\n";
-for(int i=0; i<height; i++)
-    for(int j=0; j<width; j++)
-        file<<canvas[i][j].r<<" "<<canvas[i][j].g<<" "<<canvas[i][j].b<<"\n";
+    for(int i=0; i<height; i++)
+        for(int j=0; j<width; j++)
+            file<<canvas[i][j].r<<" "<<canvas[i][j].g<<" "<<canvas[i][j].b<<"\n";
 
-file.close();
+    file.close();
 }
 int main()
 {

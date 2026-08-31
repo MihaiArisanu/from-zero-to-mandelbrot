@@ -1,9 +1,9 @@
 # From Zero to Mandelbrot
 
-**From Zero to Mandelbrot** is my first complete C++ project.
+**From Zero to Mandelbrot** is my first larger C++ project.
 
 I started this project after studying high-school algorithms and parts of
-the C++ Standard Library. I had little to no experience with larger programs,
+the C++ Standard Library. I had little to no experience with larger C++ programs,
 graphics, build systems, classes, or WebAssembly.
 
 Instead of trying to build an interactive Mandelbrot explorer immediately,
@@ -19,8 +19,8 @@ designed perfectly from the beginning.
 
 | Stage | Project | Main goal | Status |
 |---|---|---|---|
-| 01 | PPM Image Generator | Learn how images, pixels and files work | In progress |
-| 02 | Coordinate Mapper | Map mathematical coordinates to pixels | Planned |
+| 01 | PPM Image Generator | Learn how images, pixels and files work | Done |
+| 02 | Coordinate Mapper | Map mathematical coordinates to pixels | In progress |
 | 03 | Camera Playground | Learn real-time graphics, pan and zoom | Planned |
 | 04 | Complex Orbit Visualizer | Animate iterations in the complex plane | Planned |
 | 05 | Static Mandelbrot | Generate a Mandelbrot image as a PPM file | Planned |
@@ -37,4 +37,3 @@ in [LEARNING_LOG.md](LEARNING_LOG.md).
 
 The final result should be an interactive Mandelbrot explorer written in C++,
 compiled to WebAssembly and running in a web browser.
-
