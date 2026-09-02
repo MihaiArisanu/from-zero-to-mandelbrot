@@ -5,8 +5,7 @@ This program will let the user choose a function, such as `x²`, `log(x)` or
 
 ## Project status
 
-Work in progress — currently working on mapping between mathematical
-coordinates and image pixels.
+Completed.
 
 ## Features
 

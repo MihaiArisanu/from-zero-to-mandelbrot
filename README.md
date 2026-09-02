@@ -1,27 +1,23 @@
 # From Zero to Mandelbrot
 
-**From Zero to Mandelbrot** is my first larger C++ project.
+**From Zero to Mandelbrot** is a C++ learning project that documents my progression from basic 
+algorithms and the C++ Standard Library to building a complete Mandelbrot explorer.
 
-I started this project after studying high-school algorithms and parts of
-the C++ Standard Library. I had little to no experience with larger C++ programs,
-graphics, build systems, classes, or WebAssembly.
+Instead of building the final application from the start, I developed it through a series of 
+smaller projects. Each stage introduces new concepts: graphics, build systems, classes, and 
+WebAssembly, and contributes to the final application.
 
-Instead of trying to build an interactive Mandelbrot explorer immediately,
-I divided the journey into a series of smaller projects. Each stage introduces
-one or two new concepts and contributes to the final application.
+**This is a learning project, not a collection of polished production code.**
+Earlier stages reflect what I knew at the time and may contain simpler or less refined solutions.
 
-This repository is a learning project. Earlier stages may contain simpler or
-less polished solutions because they reflect my knowledge at the time.
-The goal is to document the progression, not to pretend that every stage was
-designed perfectly from the beginning.
 
 ## Roadmap
 
 | Stage | Project | Main goal | Status |
 |---|---|---|---|
 | 01 | PPM Image Generator | Learn how images, pixels and files work | Done |
-| 02 | Coordinate Mapper | Map mathematical coordinates to pixels | In progress |
-| 03 | Camera Playground | Learn real-time graphics, pan and zoom | Planned |
+| 02 | Coordinate Mapper | Map mathematical coordinates to pixels | Done |
+| 03 | Camera Playground | Learn real-time graphics, pan and zoom | In progress |
 | 04 | Complex Orbit Visualizer | Animate iterations in the complex plane | Planned |
 | 05 | Static Mandelbrot | Generate a Mandelbrot image as a PPM file | Planned |
 | 06 | Interactive Mandelbrot | Explore the fractal in a desktop application | Planned |
