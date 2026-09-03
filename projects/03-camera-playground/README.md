@@ -16,7 +16,7 @@ window.
 ## Planned features
 
 - [x] Open and close a raylib window
-- [ ] Draw concentric circles in world coordinates
+- [x] Draw concentric circles in world coordinates
 - [ ] Move the camera using `W`, `A`, `S` and `D`
 - [ ] Zoom in and out using `O` and `P`
 - [ ] Reset the camera using `R`
