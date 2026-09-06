@@ -24,3 +24,11 @@ basic geometry and file output.
 
 The main lessons from this stage are summarized in the
 [learning log](../../LEARNING_LOG.md).
+
+## Run the app
+
+Type in terminal:
+```bash
+cd projects/01-ppm-image-generator
+make run
+```

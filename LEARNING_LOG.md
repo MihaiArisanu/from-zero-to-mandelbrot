@@ -56,3 +56,18 @@ I learned that `P3` is the magic number for a plain PPM image, where the RGB
 values are written as ASCII numbers. I also learned that related Netpbm formats
 use other magic numbers, such as `P2` for plain grayscale images and `P6` for
 binary RGB images.
+
+## Stage 3 — Camera Playground
+
+This was my first time using raylib and working with real-time graphics. I
+learned the basic role of a `Camera2D`, the difference between world and screen
+coordinates, and how `GetFrameTime()` keeps movement independent of the frame
+rate.
+
+The most difficult part was making the circles seem infinite. Instead of
+actually drawing an endless number of circles, I calculate which ones could be
+visible and change the distance between them based on the zoom.
+
+I also caused an infinite loop by mixing an `int` loop variable with a
+`float` increment smaller than one. Fixing it gave me a better understanding
+of why numeric types matter.

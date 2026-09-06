@@ -17,11 +17,11 @@ window.
 
 - [x] Open and close a raylib window
 - [x] Draw concentric circles in world coordinates
-- [ ] Move the camera using `W`, `A`, `S` and `D`
-- [ ] Zoom in and out using `O` and `P`
-- [ ] Reset the camera using `R`
-- [ ] Keep the zoom inside reasonable limits
-- [ ] Draw only the circles needed for the current view
+- [x] Move the camera using `W`, `A`, `S` and `D`
+- [x] Zoom in and out using the mouse
+- [x] Reset the camera using `R`
+- [x] Keep the zoom inside reasonable limits
+- [x] Draw only the circles needed for the current view
 
 ## Planned controls
 
@@ -31,19 +31,21 @@ window.
 | `A` | Move left |
 | `S` | Move down |
 | `D` | Move right |
-| `O` | Zoom in |
-| `P` | Zoom out |
 | `R` | Reset the camera |
 
 ## Build and run
 
 Build instructions will be added after the initial raylib setup is complete.
 
-## Results
-
-Coming soon...
-
 ## What I learned
 
 The main lessons from this stage will be summarized in the
 [learning log](../../LEARNING_LOG.md).
+
+## Run the app
+
+Type in terminal:
+```bash
+cd projects/03-camera-playground
+make run
+```
