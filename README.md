@@ -17,8 +17,8 @@ Earlier stages reflect what I knew at the time and may contain simpler or less r
 |---|---|---|---|
 | 01 | PPM Image Generator | Learn how images, pixels and files work | Done |
 | 02 | Coordinate Mapper | Map mathematical coordinates to pixels | Done |
-| 03 | Camera Playground | Learn real-time graphics, pan and zoom | In progress |
-| 04 | Complex Orbit Visualizer | Animate iterations in the complex plane | Planned |
+| 03 | Camera Playground | Learn real-time graphics, pan and zoom | Done |
+| 04 | Complex Orbit Visualizer | Animate iterations in the complex plane | In progress |
 | 05 | Static Mandelbrot | Generate a Mandelbrot image as a PPM file | Planned |
 | 06 | Interactive Mandelbrot | Explore the fractal in a desktop application | Planned |
 | 07 | WebAssembly Playground | Learn how to run a C++ application in a browser | Planned |

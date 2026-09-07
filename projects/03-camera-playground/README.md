@@ -10,8 +10,7 @@ are drawn on the screen.
 
 ## Project status
 
-Work in progress — currently setting up raylib and the first application
-window.
+Completed.
 
 ## Planned features
 
