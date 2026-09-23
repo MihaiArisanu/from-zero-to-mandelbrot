@@ -20,11 +20,11 @@ Work in progress — the raylib window and build setup are ready.
 ## Planned features
 
 - [x] Open and close a raylib window
-- [ ] Represent a complex number
-- [ ] Draw the real and imaginary axes
-- [ ] Convert complex coordinates to screen coordinates
-- [ ] Calculate one step of `z = z² + c`
-- [ ] Draw the points and lines of an orbit
+- [x] Represent a complex number
+- [x] Draw the real and imaginary axes
+- [x] Convert complex coordinates to screen coordinates
+- [x] Calculate one step of `z = z² + c`
+- [x] Draw the points and lines of an orbit
 - [ ] Animate the iterations one at a time
 - [ ] Choose `c` using the mouse
 - [ ] Reset and pause the animation
